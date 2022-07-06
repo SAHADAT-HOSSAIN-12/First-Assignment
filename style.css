@@ -8,10 +8,11 @@ body{
     margin-bottom: 60px;
     text-align: center;
     padding-bottom: 100px;
+    
 }
 #background-img{
         background-image: url(images/donation14.webp);
-        opacity: 80%;
+        
 }
 #head-title{
     font-size: 70px;
