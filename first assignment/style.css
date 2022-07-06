@@ -3,15 +3,15 @@ body{
     margin: 0;
 }
 .firs-section{
-    background-image: url(/images/donation14.webp);
     background-size: cover;
     background-repeat: no-repeat;
     margin-bottom: 60px;
     text-align: center;
     padding-bottom: 100px;
-    margin-top: ;
-     
-
+}
+#background-img{
+        background-image: url(/images/donation14.webp);
+        opacity: 80%;
 }
 #head-title{
     font-size: 70px;
@@ -42,11 +42,11 @@ body{
     text-align: center;
     margin-bottom: 100px;
 }
-#donate-title{
+.donate-title{
     font-size: 45px;
     font-weight: bold;
 }
-#donate-detail{
+.donate-detail{
     color: #A6A6A6;
     padding: 0 390px;
     margin-bottom: 100px;
@@ -98,20 +98,25 @@ body{
 
 /* ----------------------------------------------------------------fourth Area--------------------------------------------------------------------------- */
 .section-fourth{
-    display: flex;
+    /* display: flex; */
+    margin-bottom: 100px;
 }
-#donation{
+.donation{
     width: 50%;
 }
-#images-adjust{
+.images-adjust{
     width: 50%;
     margin: 20px;
 }
-#donation-detail{
+.donation-detail{
     color: #A6A6A6;
 }
-#img-edit{
+.img-edit{
     width: 80%;
+    border-radius: 7px;
+}
+.contribute-button{
+    margin-top: 50px;
 }
 
 /* ----------------------------------------------------------------Fifth Area--------------------------------------------------------------------------- */
